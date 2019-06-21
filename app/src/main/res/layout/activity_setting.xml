@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_setting10"
+    tools:context=".Setting">
+
+    <ImageView
+        android:id="@+id/user_1"
+        android:layout_width="60dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/background_setting6"
+        android:src="@drawable/user_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="433dp"
+        android:layout_height="51dp"
+        android:background="@drawable/backgroud_setting1"
+        android:gravity="center"
+        android:text="Setting"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="60dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/background_setting6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_1"
+        app:srcCompat="@drawable/password_1" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/setting_1" />
+
+    <Button
+        android:id="@+id/button_username"
+        android:layout_width="330dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/background_setting6"
+        android:text="Username"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toEndOf="@+id/user_1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_pwd"
+        android:layout_width="330dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/background_setting6"
+        android:text="*******"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_style"
+        android:layout_width="330dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="224dp"
+        android:background="@drawable/background_setting6"
+        android:text="Stytle Change"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_person"
+        android:layout_width="330dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="304dp"
+        android:background="@drawable/background_setting6"
+        android:text="Personal Size"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="60dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="304dp"
+        android:background="@drawable/background_setting6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/size_1" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="60dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="384dp"
+        android:background="@drawable/background_setting6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/help_2" />
+
+    <Button
+        android:id="@+id/btn_help"
+        android:layout_width="330dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="384dp"
+        android:background="@drawable/background_setting6"
+        android:text="About"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="60dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="224dp"
+        android:background="@drawable/background_setting6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/stytle_1" />
+
+</android.support.constraint.ConstraintLayout>

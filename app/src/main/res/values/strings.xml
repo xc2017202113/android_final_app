@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">vision1</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_login">login</string>
+    <string name="title_activity_register">register</string>
+    <string name="title_activity_model_show">model_show</string>
+    <string-array name="sex">
+        <item>sex</item>
+        <item>men</item>
+        <item>women</item>
+    </string-array>
+    <string-array name="height">
+        <item>height</item>
+        <item>165</item>
+        <item>170</item>
+        <item>175</item>
+        <item>180</item>
+        <item>185</item>
+
+    </string-array>
+    <string-array name="weight">
+        <item>weight</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+        <item>65</item>
+        <item>70</item>
+    </string-array>
+    <string name="title_activity_model_show2">model_show2</string>
+    <string name="title_activity_test">test</string>
+</resources>
